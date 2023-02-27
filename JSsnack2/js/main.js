@@ -1,7 +1,8 @@
 // Inserisci un numero, se è pari stampa il numero,
 //     se è dispari stampa il numero successivo
 
-let input = parseInt(prompt("Inserisci un numero"));
+let input = Number(prompt("Inserisci un numero"));
+
 
 if (input % 2 === 0){
 
