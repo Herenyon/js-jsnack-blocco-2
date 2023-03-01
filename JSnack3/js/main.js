@@ -5,13 +5,16 @@
 const nomi = ["Francesco", "Tesele", "Gianluca"];
 const cognomi = ["Podar", "Vachi", "Zanna"];
 
-
+const lista = [];
 
 for (let i = 0; i < nomi.length; i++) {
     
     const selettoreNome = Math.floor(Math.random() * 3);
     const selettoreCognome = Math.floor(Math.random() * 3);
 
-    console.log(nomi[selettoreNome] + ' ' + cognomi[selettoreCognome]);
-
+    lista = `${nomi[selettoreNome]} ${cognomi[selettoreCognome]}`;
+    
+    lista.pushN
 }
+
+console.log(lista);
